@@ -32,6 +32,9 @@ htmlcov/
 # Verificacion visual local (screenshots pesados, no van al repo)
 verificacion-visual/
 
+# Log operativo del fetcher (la trazabilidad real vive en raw/ + quality_report.md)
+data/imports/fdc/fetch_log.txt
+
 # Sistema
 Thumbs.db
 .DS_Store
