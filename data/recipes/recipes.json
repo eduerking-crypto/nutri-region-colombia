@@ -1,0 +1,186 @@
+{
+  "_aviso": "Recetario educativo del proyecto: preparaciones tradicionales colombianas documentadas de forma general por el equipo. Verificacion cultural, rendimiento por coccion y seguridad pendientes (PD-13). La nutricion por porcion se CALCULA desde la composicion de los ingredientes crudos (USDA FDC): no incluye cambios por coccion.",
+  "recetas": [
+    {
+      "id": "REC-AJIACO-001",
+      "name": "Ajiaco santafereño (version del proyecto)",
+      "region": "andina",
+      "servings": 4,
+      "time_minutes": 90,
+      "origin_notes": "Sopa tradicional de la Sabana de Bogota. Version simplificada del equipo: pendiente de verificacion cultural.",
+      "ingredients": [
+        {"food_id": "FDC-papa", "quantity_g": 600, "unit_note": "pelada y en trozos"},
+        {"food_id": "FDC-pollo", "quantity_g": 250},
+        {"food_id": "FDC-leche", "quantity_g": 150},
+        {"food_id": "FDC-aguacate", "quantity_g": 200, "unit_note": "guarnicion"}
+      ],
+      "steps": [
+        "Cocinar la papa en trozos con el pollo en agua suficiente por 40 minutos.",
+        "Retirar el pollo, deshebrarlo y devolverlo a la olla con la leche.",
+        "Servir con aguacate en rodajas como guarnicion."
+      ]
+    },
+    {
+      "id": "REC-FRIJOLES-001",
+      "name": "Frijoles antioqueños (version del proyecto)",
+      "region": "andina",
+      "servings": 4,
+      "time_minutes": 120,
+      "origin_notes": "Base de la bandeja paisa. Version simplificada del equipo.",
+      "ingredients": [
+        {"food_id": "FDC-frijol_negro", "quantity_g": 250, "unit_note": "seco, remojado"},
+        {"food_id": "FDC-arroz", "quantity_g": 180, "unit_note": "seco"},
+        {"food_id": "FDC-aguacate", "quantity_g": 150},
+        {"food_id": "FDC-platano", "quantity_g": 120}
+      ],
+      "steps": [
+        "Remojar los frijoles la noche anterior y cocinarlos hasta que ablanden.",
+        "Preparar el arroz aparte.",
+        "Servir frijoles con arroz, aguacate y platano en tajadas."
+      ]
+    },
+    {
+      "id": "REC-SANCOCHO-001",
+      "name": "Sancocho de gallina (version del proyecto)",
+      "region": "caribe",
+      "servings": 5,
+      "time_minutes": 120,
+      "origin_notes": "Sopa festiva de las regiones Caribe y Andina. Version simplificada del equipo.",
+      "ingredients": [
+        {"food_id": "FDC-pollo", "quantity_g": 400},
+        {"food_id": "FDC-yuca", "quantity_g": 300},
+        {"food_id": "FDC-platano", "quantity_g": 200},
+        {"food_id": "FDC-papa", "quantity_g": 250},
+        {"food_id": "FDC-zanahoria", "quantity_g": 80}
+      ],
+      "steps": [
+        "Cocinar el pollo en agua con la zanahoria.",
+        "Agregar yuca y platano en trozos grandes; 30 minutos despues la papa.",
+        "Servir caliente, idealmente en compania."
+      ]
+    },
+    {
+      "id": "REC-AREPA-001",
+      "name": "Arepa con queso (version del proyecto)",
+      "region": "andina",
+      "servings": 4,
+      "time_minutes": 20,
+      "origin_notes": "Preparacion basica con harina de maiz precocida disponible en Colombia.",
+      "ingredients": [
+        {"food_id": "FDC-harina_maiz", "quantity_g": 200},
+        {"food_id": "FDC-queso_fresco", "quantity_g": 80}
+      ],
+      "steps": [
+        "Mezclar la harina con agua tibia y sal hasta obtener masa manejable.",
+        "Formar discos, agregar queso desmenuzado y sellar.",
+        "Asar en plancha caliente hasta dorar."
+      ]
+    },
+    {
+      "id": "REC-ARROZPOLLO-001",
+      "name": "Arroz con pollo (version del proyecto)",
+      "region": "andina",
+      "servings": 4,
+      "time_minutes": 45,
+      "origin_notes": "Plato cotidiano de hogar colombiano.",
+      "ingredients": [
+        {"food_id": "FDC-arroz", "quantity_g": 250, "unit_note": "seco"},
+        {"food_id": "FDC-pollo", "quantity_g": 250},
+        {"food_id": "FDC-zanahoria", "quantity_g": 100},
+        {"food_id": "FDC-cebolla", "quantity_g": 60},
+        {"food_id": "FDC-aceite", "quantity_g": 25}
+      ],
+      "steps": [
+        "Sofreir la cebolla y la zanahoria en aceite.",
+        "Agregar el pollo en trozos y luego el arroz con agua caliente.",
+        "Cocinar a fuego bajo hasta que el arroz este listo."
+      ]
+    },
+    {
+      "id": "REC-PATACON-001",
+      "name": "Pescado con patacon (version del proyecto)",
+      "region": "caribe",
+      "servings": 3,
+      "time_minutes": 40,
+      "origin_notes": "Preparacion costera. Nota: usamos trucha por disponibilidad de datos; en el Caribe se prepara con pescado local fresco (pendiente de incorporar: bocachico, pargo).",
+      "ingredients": [
+        {"food_id": "FDC-trucha", "quantity_g": 300},
+        {"food_id": "FDC-platano", "quantity_g": 250},
+        {"food_id": "FDC-aceite", "quantity_g": 30}
+      ],
+      "steps": [
+        "Freir tajadas de platano verde, aplanar y freir de nuevo (patacon).",
+        "Sazonar el pescado y cocinarlo a la plancha o frito.",
+        "Servir el pescado con los patacones."
+      ]
+    },
+    {
+      "id": "REC-LENTEJAS-001",
+      "name": "Lentejas con arroz (version del proyecto)",
+      "region": "andina",
+      "servings": 4,
+      "time_minutes": 60,
+      "origin_notes": "Plato economico cotidiano.",
+      "ingredients": [
+        {"food_id": "FDC-lentejas", "quantity_g": 220, "unit_note": "secas"},
+        {"food_id": "FDC-arroz", "quantity_g": 180, "unit_note": "seco"},
+        {"food_id": "FDC-zanahoria", "quantity_g": 80},
+        {"food_id": "FDC-cebolla", "quantity_g": 50},
+        {"food_id": "FDC-aceite", "quantity_g": 15}
+      ],
+      "steps": [
+        "Cocinar las lentejas con zanahoria y cebolla sofrita en aceite.",
+        "Preparar el arroz aparte.",
+        "Servir las lentejas sobre o junto al arroz."
+      ]
+    },
+    {
+      "id": "REC-ENSALADA-001",
+      "name": "Ensalada de jardin (version del proyecto)",
+      "region": null,
+      "servings": 4,
+      "time_minutes": 15,
+      "origin_notes": "Acompanamiento fresco.",
+      "ingredients": [
+        {"food_id": "FDC-tomate", "quantity_g": 200},
+        {"food_id": "FDC-zanahoria", "quantity_g": 120},
+        {"food_id": "FDC-aguacate", "quantity_g": 120},
+        {"food_id": "FDC-cebolla", "quantity_g": 40},
+        {"food_id": "FDC-aceite", "quantity_g": 10}
+      ],
+      "steps": [
+        "Lavar y cortar las hortalizas.",
+        "Mezclar con aguacate en cubos y aliñar con aceite."
+      ]
+    },
+    {
+      "id": "REC-JUGOMANGO-001",
+      "name": "Jugo de mango (version del proyecto)",
+      "region": "caribe",
+      "servings": 2,
+      "time_minutes": 10,
+      "origin_notes": "Bebida de frutas tropicales.",
+      "ingredients": [
+        {"food_id": "FDC-mango", "quantity_g": 300, "unit_note": "pulpa (composicion sin agua de preparacion)"}
+      ],
+      "steps": ["Licuar la pulpa con agua fria y servir."]
+    },
+    {
+      "id": "REC-CALDOPAPA-001",
+      "name": "Caldo de papa campesino (version del proyecto)",
+      "region": "andina",
+      "servings": 3,
+      "time_minutes": 30,
+      "origin_notes": "Caldo rural andino.",
+      "ingredients": [
+        {"food_id": "FDC-papa", "quantity_g": 350},
+        {"food_id": "FDC-cebolla", "quantity_g": 40},
+        {"food_id": "FDC-leche", "quantity_g": 100}
+      ],
+      "steps": [
+        "Cocinar la papa en trozos con la cebolla.",
+        "Al final, agregar un chorrito de leche y servir caliente."
+      ]
+    }
+  ]
+}

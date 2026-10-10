@@ -1,0 +1,89 @@
+{
+  "_aviso": "Reglas candidatas del motor determinista. Ninguna es protocolo clinico: cada una requiere fuente aplicable, revision y aprobacion de un profesional sanitario competente antes de considerarse vinculante (PD-02, PD-11). En modo piloto se evaluan con banner visible en la UI.",
+  "reglas": [
+    {
+      "id": "CR-DIAB-001",
+      "version": 1,
+      "scope": "salud",
+      "name": "Derivacion profesional en diabetes con medicamentos",
+      "conditions": [{"type": "health_flag", "value": "diabetes_medicamentos"}],
+      "exceptions": [],
+      "action": "derivar_profesional",
+      "message": "Indicaste que vives con diabetes y usas medicamentos. La planificacion alimentaria con medicamentos que pueden causar hipoglucemia debe hacerse con un profesional de la salud que conozca tu tratamiento. No generamos un plan automatico; te sugerimos consultar con tu equipo de salud.",
+      "justification": "El riesgo de hipoglucemia exige individualizacion profesional del plan alimentario.",
+      "source_desc": "Principio de seguridad del producto. Umbral y criterio clinico concreto pendientes de fijacion por profesional sanitario (PD-02).",
+      "evidence_level": "pendiente_verificacion",
+      "status": "candidate"
+    },
+    {
+      "id": "CR-RENAL-001",
+      "version": 1,
+      "scope": "salud",
+      "name": "Derivacion profesional en enfermedad renal",
+      "conditions": [{"type": "health_flag", "value": "enfermedad_renal"}],
+      "exceptions": [],
+      "action": "derivar_profesional",
+      "message": "Registraste enfermedad renal. Las necesidades de proteinas, potasio, sodio y fosforo deben individualizarse segun tu funcion renal y tratamiento. Este plan automatico no reemplaza la nutricion clinica especializada: por favor consulta a tu equipo de salud.",
+      "justification": "La enfermedad renal requiere individualizacion nutricional especializada.",
+      "source_desc": "Principio de seguridad del producto. Criterio clinico pendiente de validacion profesional (PD-02).",
+      "evidence_level": "pendiente_verificacion",
+      "status": "candidate"
+    },
+    {
+      "id": "CR-EMB-001",
+      "version": 1,
+      "scope": "salud",
+      "name": "Derivacion profesional en embarazo",
+      "conditions": [{"type": "health_flag", "value": "embarazo"}],
+      "exceptions": [],
+      "action": "derivar_profesional",
+      "message": "Registraste embarazo. La alimentacion en el embarazo tiene requerimientos y precauciones especificas (incluidas advertencias sobre algunos alimentos). No generamos un plan automatico: busca orientacion de un profesional de salud con seguimiento de tu embarazo.",
+      "justification": "El embarazo requiere acompanamiento profesional de la alimentacion.",
+      "source_desc": "Principio de seguridad del producto. Criterio clinico pendiente de validacion profesional (PD-02).",
+      "evidence_level": "pendiente_verificacion",
+      "status": "candidate"
+    },
+    {
+      "id": "CR-LACT-001",
+      "version": 1,
+      "scope": "salud",
+      "name": "Advertencia en lactancia",
+      "conditions": [{"type": "health_flag", "value": "lactancia"}],
+      "exceptions": [],
+      "action": "advertir",
+      "message": "Estas en etapa de lactancia: tus necesidades de energia e hidratacion cambian. Los menus son orientativos; el acompanamiento profesional es recomendable en esta etapa.",
+      "justification": "La lactancia modifica requerimientos nutricionales.",
+      "source_desc": "Principio de seguridad del producto. Criterio clinico pendiente de validacion profesional (PD-02).",
+      "evidence_level": "pendiente_verificacion",
+      "status": "candidate"
+    },
+    {
+      "id": "CR-TCA-001",
+      "version": 1,
+      "scope": "salud",
+      "name": "Cuidado ante posibles senales de trastorno de conducta alimentaria",
+      "conditions": [{"type": "health_flag", "value": "posible_tca"}],
+      "exceptions": [],
+      "action": "derivar_profesional",
+      "message": "Anotaste algunas senales que merecen cuidado en tu relacion con la comida. Este espacio no es el adecuado para un plan alimentario automatico. Buscar apoyo con un profesional de la salud es un paso valioso; la comida no es un juicio y tu bienestar importa.",
+      "justification": "Ante posibles senales de TCA se prioriza el acompanamiento profesional por encima de cualquier plan.",
+      "source_desc": "Principio de seguridad del producto. Criterio clinico pendiente de validacion profesional (PD-02).",
+      "evidence_level": "pendiente_verificacion",
+      "status": "candidate"
+    },
+    {
+      "id": "CR-DESNUT-001",
+      "version": 1,
+      "scope": "salud",
+      "name": "Derivacion ante perdida de peso involuntaria",
+      "conditions": [{"type": "health_flag", "value": "perdida_peso_involuntaria"}],
+      "exceptions": [],
+      "action": "derivar_profesional",
+      "message": "Registraste perdida de peso involuntaria. Puede haber causas que requieren evaluacion medica. Te sugerimos consultar a un profesional de salud antes de hacer cambios en tu alimentacion.",
+      "justification": "La perdida involuntaria de peso requiere descarte medico antes de orientacion dietaria.",
+      "source_desc": "Principio de seguridad del producto. Criterio clinico pendiente de validacion profesional (PD-02).",
+      "evidence_level": "pendiente_verificacion",
+      "status": "candidate"
+    }
+  ]
+}

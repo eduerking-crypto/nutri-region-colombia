@@ -1,0 +1,1755 @@
+{
+  "meta": {
+    "source": {
+      "id": "SRC-USDA-FDC",
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "api_url": "https://api.nal.usda.gov/fdc/v1/foods/search",
+      "license": "Dominio publico (datos del gobierno de EE. UU.)",
+      "citation": "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/"
+    },
+    "retrieved_at": "2026-10-10",
+    "imported_at": "2026-10-10T18:31:46.385996+00:00",
+    "nutrient_map_fdc_ids": {
+      "1008": "energia",
+      "1003": "proteina",
+      "1004": "grasa_total",
+      "1005": "carbohidratos",
+      "2000": "azucares",
+      "1079": "fibra",
+      "1087": "calcio",
+      "1089": "hierro",
+      "1090": "magnesio",
+      "1091": "fosforo",
+      "1092": "potasio",
+      "1093": "sodio",
+      "1095": "zinc",
+      "1162": "vitamina_c",
+      "1165": "tiamina",
+      "1166": "riboflavina",
+      "1167": "niacina",
+      "1175": "vitamina_b6",
+      "1177": "folato",
+      "1106": "vitamina_a_rae",
+      "1109": "vitamina_e",
+      "1185": "vitamina_k",
+      "1178": "vitamina_b12",
+      "1258": "grasas_saturadas",
+      "1292": "grasas_monoinsaturadas",
+      "1293": "grasas_poliinsaturadas",
+      "1253": "colesterol",
+      "1051": "agua",
+      "2047": "energia"
+    }
+  },
+  "foods": [
+    {
+      "id": "FDC-169985",
+      "slug": "yuca",
+      "name_common": "Yuca",
+      "name_variants": [
+        "mandioca",
+        "yuca brava"
+      ],
+      "name_scientific": "Manihot esculenta",
+      "fdc_description": "Cassava, raw",
+      "fdc_data_type": "SR Legacy",
+      "fdc_published": "2019-04-01",
+      "food_group": "vegetal",
+      "state": "crudo",
+      "allergens": [],
+      "region_associations": [
+        "caribe",
+        "pacifico",
+        "orinoquia",
+        "amazonia"
+      ],
+      "diet_tags": [
+        "vegetal"
+      ],
+      "notes": "Asociacion territorial y nombres locales: curaduria educativa pendiente de verificacion (PD-13).",
+      "nutrients": [
+        {
+          "nutrient": "vitamina_a_rae",
+          "value": 1.0,
+          "unit": "ug",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "carbohidratos",
+          "value": 38.1,
+          "unit": "g",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "energia",
+          "value": 160.0,
+          "unit": "kcal",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "vitamina_c",
+          "value": 20.6,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "tiamina",
+          "value": 0.087,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "riboflavina",
+          "value": 0.048,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "folato",
+          "value": 27.0,
+          "unit": "ug",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "proteina",
+          "value": 1.36,
+          "unit": "g",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "fibra",
+          "value": 1.8,
+          "unit": "g",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "hierro",
+          "value": 0.27,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "magnesio",
+          "value": 21.0,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "fosforo",
+          "value": 27.0,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "sodio",
+          "value": 14.0,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "grasas_saturadas",
+          "value": 0.074,
+          "unit": "g",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "grasas_monoinsaturadas",
+          "value": 0.075,
+          "unit": "g",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "grasas_poliinsaturadas",
+          "value": 0.048,
+          "unit": "g",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "grasa_total",
+          "value": 0.28,
+          "unit": "g",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "agua",
+          "value": 59.7,
+          "unit": "g",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "niacina",
+          "value": 0.854,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "vitamina_b6",
+          "value": 0.088,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "calcio",
+          "value": 16.0,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "potasio",
+          "value": 271.0,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "zinc",
+          "value": 0.34,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "vitamina_e",
+          "value": 0.19,
+          "unit": "mg",
+          "method": "Other procedure used from imputing",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "azucares",
+          "value": 1.7,
+          "unit": "g",
+          "method": "Taken from another source--other tables of food composition",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "vitamina_k",
+          "value": 1.9,
+          "unit": "ug",
+          "method": "Other procedure used from imputing",
+          "trust_tier": "estimado"
+        }
+      ],
+      "nutrients_medidos": 17,
+      "nutrients_estimados": 9,
+      "assumed_zero_omitidos": [
+        "colesterol (asumido cero por la fuente)",
+        "vitamina_b12 (asumido cero por la fuente)"
+      ]
+    },
+    {
+      "id": "FDC-168215",
+      "slug": "platano",
+      "name_common": "Platano",
+      "name_variants": [
+        "platano macho",
+        "topocho"
+      ],
+      "name_scientific": "Musa X paradisiaca",
+      "fdc_description": "Plantains, green, raw",
+      "fdc_data_type": "SR Legacy",
+      "fdc_published": "2019-04-01",
+      "food_group": "fruta",
+      "state": "crudo",
+      "allergens": [],
+      "region_associations": [
+        "caribe",
+        "pacifico",
+        "andina"
+      ],
+      "diet_tags": [
+        "vegetal"
+      ],
+      "notes": "Asociacion territorial y nombres locales: curaduria educativa pendiente de verificacion (PD-13).",
+      "nutrients": [
+        {
+          "nutrient": "grasa_total",
+          "value": 0.07,
+          "unit": "g",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "carbohidratos",
+          "value": 36.7,
+          "unit": "g",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "energia",
+          "value": 152.0,
+          "unit": "kcal",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "agua",
+          "value": 61.1,
+          "unit": "g",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "azucares",
+          "value": 2.29,
+          "unit": "g",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "calcio",
+          "value": 2.0,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "potasio",
+          "value": 431.0,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "zinc",
+          "value": 0.18,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "niacina",
+          "value": 0.55,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "vitamina_b6",
+          "value": 0.07,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "grasas_monoinsaturadas",
+          "value": 0.019,
+          "unit": "g",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "grasas_poliinsaturadas",
+          "value": 0.031,
+          "unit": "g",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "proteina",
+          "value": 1.25,
+          "unit": "g",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "fibra",
+          "value": 2.2,
+          "unit": "g",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "hierro",
+          "value": 0.75,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "magnesio",
+          "value": 41.0,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "fosforo",
+          "value": 31.0,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "sodio",
+          "value": 2.0,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "vitamina_c",
+          "value": 20.2,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "tiamina",
+          "value": 0.1,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "riboflavina",
+          "value": 0.1,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "folato",
+          "value": 28.0,
+          "unit": "ug",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "grasas_saturadas",
+          "value": 0.121,
+          "unit": "g",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        }
+      ],
+      "nutrients_medidos": 18,
+      "nutrients_estimados": 5,
+      "assumed_zero_omitidos": []
+    },
+    {
+      "id": "FDC-168877",
+      "slug": "arroz",
+      "name_common": "Arroz blanco",
+      "name_variants": [
+        "arroz"
+      ],
+      "name_scientific": null,
+      "fdc_description": "Rice, white, long-grain, regular, raw, enriched",
+      "fdc_data_type": "SR Legacy",
+      "fdc_published": "2019-04-01",
+      "food_group": "cereal",
+      "state": "crudo",
+      "allergens": [],
+      "region_associations": [],
+      "diet_tags": [
+        "vegetal"
+      ],
+      "notes": "Asociacion territorial y nombres locales: curaduria educativa pendiente de verificacion (PD-13).",
+      "nutrients": [
+        {
+          "nutrient": "folato",
+          "value": 231.0,
+          "unit": "ug",
+          "method": "Product standard, such as enrichment level specified in CFR or AMS commodity standard",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "vitamina_k",
+          "value": 0.1,
+          "unit": "ug",
+          "method": "Based on another form of the food or similar food; Concentration adjustment; Solids; Retention factors not used",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "vitamina_e",
+          "value": 0.11,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "grasa_total",
+          "value": 0.66,
+          "unit": "g",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "carbohidratos",
+          "value": 80.0,
+          "unit": "g",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "energia",
+          "value": 365.0,
+          "unit": "kcal",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "calcio",
+          "value": 28.0,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "potasio",
+          "value": 115.0,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "zinc",
+          "value": 1.09,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "agua",
+          "value": 11.6,
+          "unit": "g",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "grasas_monoinsaturadas",
+          "value": 0.206,
+          "unit": "g",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "grasas_poliinsaturadas",
+          "value": 0.177,
+          "unit": "g",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "niacina",
+          "value": 4.19,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "vitamina_b6",
+          "value": 0.164,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "proteina",
+          "value": 7.13,
+          "unit": "g",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "vitamina_c",
+          "value": 0.0,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "tiamina",
+          "value": 0.576,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "riboflavina",
+          "value": 0.049,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "fibra",
+          "value": 1.3,
+          "unit": "g",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "hierro",
+          "value": 4.31,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "magnesio",
+          "value": 25.0,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "fosforo",
+          "value": 115.0,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "sodio",
+          "value": 5.0,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "colesterol",
+          "value": 0.0,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "grasas_saturadas",
+          "value": 0.18,
+          "unit": "g",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "azucares",
+          "value": 0.12,
+          "unit": "g",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "vitamina_a_rae",
+          "value": 0.0,
+          "unit": "ug",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        }
+      ],
+      "nutrients_medidos": 0,
+      "nutrients_estimados": 27,
+      "assumed_zero_omitidos": [
+        "vitamina_b12 (asumido cero por la fuente)"
+      ]
+    },
+    {
+      "id": "FDC-173734",
+      "slug": "frijol_negro",
+      "name_common": "Frijol negro",
+      "name_variants": [
+        "frijol",
+        "caraota negra"
+      ],
+      "name_scientific": "Phaseolus vulgaris",
+      "fdc_description": "Beans, black, mature seeds, raw",
+      "fdc_data_type": "SR Legacy",
+      "fdc_published": "2019-04-01",
+      "food_group": "legumbre",
+      "state": "crudo",
+      "allergens": [],
+      "region_associations": [
+        "caribe",
+        "andina"
+      ],
+      "diet_tags": [
+        "vegetal"
+      ],
+      "notes": "Asociacion territorial y nombres locales: curaduria educativa pendiente de verificacion (PD-13).",
+      "nutrients": [
+        {
+          "nutrient": "fibra",
+          "value": 15.5,
+          "unit": "g",
+          "method": "Based on another form of the food or similar food; Concentration adjustment; Solids; Retention factors not used",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "carbohidratos",
+          "value": 62.4,
+          "unit": "g",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "energia",
+          "value": 341.0,
+          "unit": "kcal",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "azucares",
+          "value": 2.12,
+          "unit": "g",
+          "method": "Based on another form of the food or similar food; Concentration adjustment; Solids; Retention factors not used",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "vitamina_e",
+          "value": 0.21,
+          "unit": "mg",
+          "method": "Based on another form of the food or similar food; Concentration adjustment; Solids; Retention factors not used",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "vitamina_k",
+          "value": 5.6,
+          "unit": "ug",
+          "method": "Based on another form of the food or similar food; Concentration adjustment; Solids; Retention factors not used",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "vitamina_a_rae",
+          "value": 0.0,
+          "unit": "ug",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "proteina",
+          "value": 21.6,
+          "unit": "g",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "vitamina_c",
+          "value": 0.0,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "tiamina",
+          "value": 0.9,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "riboflavina",
+          "value": 0.193,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "folato",
+          "value": 444.0,
+          "unit": "ug",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "vitamina_b12",
+          "value": 0.0,
+          "unit": "ug",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "hierro",
+          "value": 5.02,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "magnesio",
+          "value": 171.0,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "fosforo",
+          "value": 352.0,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "sodio",
+          "value": 5.0,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "colesterol",
+          "value": 0.0,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "grasas_saturadas",
+          "value": 0.366,
+          "unit": "g",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "grasa_total",
+          "value": 1.42,
+          "unit": "g",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "agua",
+          "value": 11.0,
+          "unit": "g",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "calcio",
+          "value": 123.0,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "potasio",
+          "value": 1480.0,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "zinc",
+          "value": 3.65,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "niacina",
+          "value": 1.96,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "vitamina_b6",
+          "value": 0.286,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "grasas_monoinsaturadas",
+          "value": 0.123,
+          "unit": "g",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "grasas_poliinsaturadas",
+          "value": 0.61,
+          "unit": "g",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        }
+      ],
+      "nutrients_medidos": 0,
+      "nutrients_estimados": 28,
+      "assumed_zero_omitidos": []
+    },
+    {
+      "id": "FDC-172423",
+      "slug": "lentejas",
+      "name_common": "Lentejas",
+      "name_variants": [],
+      "name_scientific": "Lupinus albus",
+      "fdc_description": "Lupins, mature seeds, raw",
+      "fdc_data_type": "SR Legacy",
+      "fdc_published": "2019-04-01",
+      "food_group": "legumbre",
+      "state": "crudo",
+      "allergens": [],
+      "region_associations": [
+        "andina"
+      ],
+      "diet_tags": [
+        "vegetal"
+      ],
+      "notes": "Asociacion territorial y nombres locales: curaduria educativa pendiente de verificacion (PD-13).",
+      "nutrients": [
+        {
+          "nutrient": "carbohidratos",
+          "value": 40.4,
+          "unit": "g",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "vitamina_a_rae",
+          "value": 0.0,
+          "unit": "ug",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "fibra",
+          "value": 18.9,
+          "unit": "g",
+          "method": "Based on another form of the food or similar food; Concentration adjustment; Solids; Retention factors not used",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "proteina",
+          "value": 36.2,
+          "unit": "g",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "hierro",
+          "value": 4.36,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "magnesio",
+          "value": 198.0,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "fosforo",
+          "value": 440.0,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "sodio",
+          "value": 15.0,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "vitamina_c",
+          "value": 4.8,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "tiamina",
+          "value": 0.64,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "riboflavina",
+          "value": 0.22,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "folato",
+          "value": 355.0,
+          "unit": "ug",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "grasas_saturadas",
+          "value": 1.16,
+          "unit": "g",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "grasa_total",
+          "value": 9.74,
+          "unit": "g",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "calcio",
+          "value": 176.0,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "potasio",
+          "value": 1010.0,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "zinc",
+          "value": 4.75,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "niacina",
+          "value": 2.19,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "vitamina_b6",
+          "value": 0.357,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "energia",
+          "value": 371.0,
+          "unit": "kcal",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "agua",
+          "value": 10.4,
+          "unit": "g",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "grasas_monoinsaturadas",
+          "value": 3.94,
+          "unit": "g",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "grasas_poliinsaturadas",
+          "value": 2.44,
+          "unit": "g",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        }
+      ],
+      "nutrients_medidos": 0,
+      "nutrients_estimados": 23,
+      "assumed_zero_omitidos": [
+        "colesterol (asumido cero por la fuente)",
+        "vitamina_b12 (asumido cero por la fuente)"
+      ]
+    },
+    {
+      "id": "FDC-172428",
+      "slug": "arveja_seca",
+      "name_common": "Arveja seca (chicharo partido)",
+      "name_variants": [
+        "arveja partida"
+      ],
+      "name_scientific": "Pisum sativum",
+      "fdc_description": "Peas, green, split, mature seeds, raw",
+      "fdc_data_type": "SR Legacy",
+      "fdc_published": "2019-04-01",
+      "food_group": "legumbre",
+      "state": "crudo",
+      "allergens": [],
+      "region_associations": [
+        "andina"
+      ],
+      "diet_tags": [
+        "vegetal"
+      ],
+      "notes": "Asociacion territorial y nombres locales: curaduria educativa pendiente de verificacion (PD-13).",
+      "nutrients": [
+        {
+          "nutrient": "proteina",
+          "value": 23.1,
+          "unit": "g",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "vitamina_k",
+          "value": 15.9,
+          "unit": "ug",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "tiamina",
+          "value": 0.719,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "riboflavina",
+          "value": 0.244,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "folato",
+          "value": 15.0,
+          "unit": "ug",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "grasas_saturadas",
+          "value": 0.408,
+          "unit": "g",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "fibra",
+          "value": 22.2,
+          "unit": "g",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "hierro",
+          "value": 4.73,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "magnesio",
+          "value": 63.0,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "fosforo",
+          "value": 334.0,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "sodio",
+          "value": 5.0,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "niacina",
+          "value": 3.61,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "vitamina_b6",
+          "value": 0.14,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "grasas_monoinsaturadas",
+          "value": 0.615,
+          "unit": "g",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "grasas_poliinsaturadas",
+          "value": 1.02,
+          "unit": "g",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "grasa_total",
+          "value": 3.89,
+          "unit": "g",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "carbohidratos",
+          "value": 61.6,
+          "unit": "g",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "energia",
+          "value": 364.0,
+          "unit": "kcal",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "agua",
+          "value": 8.69,
+          "unit": "g",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "azucares",
+          "value": 3.14,
+          "unit": "g",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "calcio",
+          "value": 46.0,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "potasio",
+          "value": 852.0,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "zinc",
+          "value": 3.49,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "vitamina_e",
+          "value": 0.12,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "vitamina_a_rae",
+          "value": 7.0,
+          "unit": "ug",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "vitamina_c",
+          "value": 1.8,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        }
+      ],
+      "nutrients_medidos": 20,
+      "nutrients_estimados": 6,
+      "assumed_zero_omitidos": [
+        "colesterol (asumido cero por la fuente)",
+        "vitamina_b12 (asumido cero por la fuente)"
+      ]
+    },
+    {
+      "id": "FDC-168922",
+      "slug": "harina_maiz",
+      "name_common": "Harina de maiz",
+      "name_variants": [
+        "masa de maiz"
+      ],
+      "name_scientific": null,
+      "fdc_description": "Cornmeal, degermed, enriched, white",
+      "fdc_data_type": "SR Legacy",
+      "fdc_published": "2019-04-01",
+      "food_group": "cereal",
+      "state": "segun fuente",
+      "allergens": [],
+      "region_associations": [
+        "caribe",
+        "andina"
+      ],
+      "diet_tags": [
+        "vegetal"
+      ],
+      "notes": "Asociacion territorial y nombres locales: curaduria educativa pendiente de verificacion (PD-13).",
+      "nutrients": [
+        {
+          "nutrient": "vitamina_k",
+          "value": 0.0,
+          "unit": "ug",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "grasas_monoinsaturadas",
+          "value": 0.39,
+          "unit": "g",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "grasas_poliinsaturadas",
+          "value": 0.828,
+          "unit": "g",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "grasas_saturadas",
+          "value": 0.22,
+          "unit": "g",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "vitamina_c",
+          "value": 0.0,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "vitamina_a_rae",
+          "value": 0.0,
+          "unit": "ug",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "proteina",
+          "value": 7.11,
+          "unit": "g",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "fibra",
+          "value": 3.9,
+          "unit": "g",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "hierro",
+          "value": 4.36,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "magnesio",
+          "value": 32.0,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "fosforo",
+          "value": 99.0,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "sodio",
+          "value": 7.0,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "tiamina",
+          "value": 0.551,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "riboflavina",
+          "value": 0.382,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "folato",
+          "value": 209.0,
+          "unit": "ug",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "niacina",
+          "value": 4.97,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "vitamina_b6",
+          "value": 0.182,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "azucares",
+          "value": 1.61,
+          "unit": "g",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "calcio",
+          "value": 3.0,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "potasio",
+          "value": 142.0,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "zinc",
+          "value": 0.66,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "vitamina_e",
+          "value": 0.12,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "grasa_total",
+          "value": 1.75,
+          "unit": "g",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "carbohidratos",
+          "value": 79.4,
+          "unit": "g",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "energia",
+          "value": 370.0,
+          "unit": "kcal",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "agua",
+          "value": 11.2,
+          "unit": "g",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        }
+      ],
+      "nutrients_medidos": 19,
+      "nutrients_estimados": 7,
+      "assumed_zero_omitidos": [
+        "colesterol (asumido cero por la fuente)",
+        "vitamina_b12 (asumido cero por la fuente)"
+      ]
+    },
+    {
+      "id": "FDC-170026",
+      "slug": "papa",
+      "name_common": "Papa",
+      "name_variants": [
+        "patata"
+      ],
+      "name_scientific": "Solanum tuberosum",
+      "fdc_description": "Potatoes, flesh and skin, raw",
+      "fdc_data_type": "SR Legacy",
+      "fdc_published": "2019-04-01",
+      "food_group": "vegetal",
+      "state": "crudo",
+      "allergens": [],
+      "region_associations": [
+        "andina"
+      ],
+      "diet_tags": [
+        "vegetal"
+      ],
+      "notes": "Asociacion territorial y nombres locales: curaduria educativa pendiente de verificacion (PD-13).",
+      "nutrients": [
+        {
+          "nutrient": "grasa_total",
+          "value": 0.09,
+          "unit": "g",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "vitamina_e",
+          "value": 0.01,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "calcio",
+          "value": 12.0,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "riboflavina",
+          "value": 0.032,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "magnesio",
+          "value": 23.0,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "fosforo",
+          "value": 57.0,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "energia",
+          "value": 77.0,
+          "unit": "kcal",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "vitamina_a_rae",
+          "value": 0.0,
+          "unit": "ug",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "vitamina_c",
+          "value": 19.7,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "sodio",
+          "value": 6.0,
+          "unit": "mg",
+          "method": "derivado",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "grasas_saturadas",
+          "value": 0.025,
+          "unit": "g",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "vitamina_k",
+          "value": 2.0,
+          "unit": "ug",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "folato",
+          "value": 15.0,
+          "unit": "ug",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "proteina",
+          "value": 2.05,
+          "unit": "g",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "fibra",
+          "value": 2.1,
+          "unit": "g",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "hierro",
+          "value": 0.81,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "tiamina",
+          "value": 0.081,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "grasas_monoinsaturadas",
+          "value": 0.002,
+          "unit": "g",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "grasas_poliinsaturadas",
+          "value": 0.042,
+          "unit": "g",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "carbohidratos",
+          "value": 17.5,
+          "unit": "g",
+          "method": "Calculated",
+          "trust_tier": "estimado"
+        },
+        {
+          "nutrient": "niacina",
+          "value": 1.06,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "vitamina_b6",
+          "value": 0.298,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "potasio",
+          "value": 425.0,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "zinc",
+          "value": 0.3,
+          "unit": "mg",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "agua",
+          "value": 79.2,
+          "unit": "g",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        },
+        {
+          "nutrient": "azucares",
+          "value": 0.82,
+          "unit": "g",
+          "method": "Analytical",
+          "trust_tier": "medido"
+        }
+      ],
+      "nutrients_medidos": 18,
+      "nutrients_estimados": 8,
+      "assumed_zero_omitidos": [
+        "colesterol (asumido cero por la fuente)",
+        "vitamina_b12 (asumido cero por la fuente)"
+      ]
+    }
+  ],
+  "skipped": [
+    "tomate: sin descarga cruda todavia",
+    "cebolla: sin descarga cruda todavia",
+    "ajo: sin descarga cruda todavia",
+    "aguacate: sin descarga cruda todavia",
+    "pollo: sin descarga cruda todavia",
+    "res: sin descarga cruda todavia",
+    "huevo: sin descarga cruda todavia",
+    "leche: sin descarga cruda todavia",
+    "queso_fresco: sin descarga cruda todavia",
+    "aceite: sin descarga cruda todavia",
+    "brocoli: sin descarga cruda todavia",
+    "zanahoria: sin descarga cruda todavia",
+    "espinaca: sin descarga cruda todavia",
+    "naranja: sin descarga cruda todavia",
+    "mango: sin descarga cruda todavia",
+    "papaya: sin descarga cruda todavia",
+    "guayaba: sin descarga cruda todavia",
+    "maracuya: sin descarga cruda todavia",
+    "cacao: sin descarga cruda todavia",
+    "trucha: sin descarga cruda todavia"
+  ],
+  "observations": [
+    "arroz: sin nutrientes medidos (todos estimados)",
+    "frijol_negro: sin nutrientes medidos (todos estimados)",
+    "lentejas: sin nutrientes medidos (todos estimados)"
+  ],
+  "global_limitations": [
+    "Fuente: USDA FoodData Central (SR Legacy 2019 y Foundation). Muestras de EE. UU.; las variedades y condiciones colombianas pueden diferir.",
+    "Composicion del alimento en estado declarado (mayormente crudo). Los cambios por coccion no estan incluidos salvo en los datos de origen.",
+    "La tabla ICBF de composicion de alimentos colombianos es la fuente prioritaria pendiente de incorporar (licencia y version por verificar, PD-04).",
+    "Asociaciones territoriales, nombres locales y alergenos son curaduria educativa del proyecto, marcada como 'educativo' y pendiente de verificacion formal.",
+    "Alimentos prioritarios pendientes de fuente: panela, mazorca, platanos cocidos, bocachico, pargo, ahuyama, cubios, chachafruto, entre otros."
+  ]
+}

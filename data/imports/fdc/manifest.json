@@ -1,0 +1,40 @@
+{
+  "source": {
+    "id": "SRC-USDA-FDC",
+    "name": "USDA FoodData Central",
+    "url": "https://fdc.nal.usda.gov/",
+    "api_url": "https://api.nal.usda.gov/fdc/v1/foods/search",
+    "license": "Dominio publico (datos del gobierno de EE. UU.)",
+    "citation": "U.S. Department of Agriculture, Agricultural Research Service. FoodData Central. https://fdc.nal.usda.gov/"
+  },
+  "foods": [
+    {"slug": "yuca", "query": "Cassava, raw"},
+    {"slug": "platano", "query": "Plantains, raw"},
+    {"slug": "arroz", "query": "Rice, white, long-grain, regular, raw"},
+    {"slug": "frijol_negro", "query": "Beans, black, mature seeds, raw"},
+    {"slug": "lentejas", "query": "Lentils, mature seeds, raw"},
+    {"slug": "arveja_seca", "query": "Peas, split, mature seeds, raw"},
+    {"slug": "harina_maiz", "query": "Cornmeal, degermed"},
+    {"slug": "papa", "query": "Potatoes, flesh and skin, raw"},
+    {"slug": "tomate", "query": "Tomatoes, red, ripe, raw"},
+    {"slug": "cebolla", "query": "Onions, raw"},
+    {"slug": "ajo", "query": "Garlic, raw"},
+    {"slug": "aguacate", "query": "Avocados, raw"},
+    {"slug": "pollo", "query": "Chicken, breast, skinless, raw"},
+    {"slug": "res", "query": "Beef, ground, 85% lean meat, raw"},
+    {"slug": "huevo", "query": "Egg, whole, raw"},
+    {"slug": "leche", "query": "Milk, whole, fluid"},
+    {"slug": "queso_fresco", "query": "Cheese, fresco"},
+    {"slug": "aceite", "query": "Oil, soybean"},
+    {"slug": "brocoli", "query": "Broccoli, raw"},
+    {"slug": "zanahoria", "query": "Carrots, raw"},
+    {"slug": "espinaca", "query": "Spinach, raw"},
+    {"slug": "naranja", "query": "Oranges, raw"},
+    {"slug": "mango", "query": "Mangos, raw"},
+    {"slug": "papaya", "query": "Papayas, raw"},
+    {"slug": "guayaba", "query": "Guavas, raw"},
+    {"slug": "maracuya", "query": "Passion fruit, raw"},
+    {"slug": "cacao", "query": "Cocoa, dry powder, unsweetened"},
+    {"slug": "trucha", "query": "Fish, trout, rainbow, farmed, raw"}
+  ]
+}
