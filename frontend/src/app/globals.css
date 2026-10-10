@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+/* ============================================================
+   NutriRegion Colombia - Sistema de diseno (ADR-0005, premium-healthcare-ui)
+   Editorial contemporaneo: marfil, verde salvia/botanico, acentos tierra.
+   La confianza cientifica es parte de la interfaz.
+   ============================================================ */
+
+@theme {
+  /* Neutros calidos */
+  --color-marfil: #f6f3ec;
+  --color-papel: #fdfbf7;
+  --color-tinta: #2b2a26;
+  --color-tinta-suave: #6e6a60;
+  --color-borde: #e4dfd3;
+
+  /* Verdes */
+  --color-salvia: #7c9885;
+  --color-salvia-suave: #e3ebe2;
+  --color-botanico: #3e5c47;
+  --color-botanico-oscuro: #2d4434;
+
+  /* Tierra */
+  --color-tierra: #a97f56;
+  --color-tierra-suave: #f0e6d8;
+
+  /* Estados */
+  --color-alerta: #b3402e;
+  --color-alerta-fondo: #f8e3de;
+  --color-ambar: #9a6b1f;
+  --color-ambar-fondo: #f7ecd6;
+  --color-exito: #3e6b4f;
+  --color-exito-fondo: #e2eee5;
+
+  --font-display: var(--fuente-display), Georgia, serif;
+  --font-body: var(--fuente-body), system-ui, sans-serif;
+
+  --radius-card: 14px;
+}
+
+body {
+  background: var(--color-marfil);
+  color: var(--color-tinta);
+  font-family: var(--fuente-body), system-ui, -apple-system, sans-serif;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--fuente-display), Georgia, serif;
+  letter-spacing: -0.01em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-botanico);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@keyframes aparecer {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.aparecer {
+  animation: aparecer 0.5s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .aparecer {
+    animation: none;
+  }
+}
+
+::selection {
+  background: var(--color-salvia-suave);
+  color: var(--color-botanico-oscuro);
+}

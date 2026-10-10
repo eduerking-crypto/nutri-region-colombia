@@ -2,8 +2,28 @@
 
 Plataforma digital de nutrición territorial: recomendaciones alimentarias contextualizadas en el territorio, el presupuesto, la cultura gastronómica y las necesidades individuales de las personas en Colombia, con rigor científico trazable.
 
-> **Estado: Fase 0 — Descubrimiento y arquitectura. Completada, pendiente de aprobación.**
-> Este repositorio contiene por diseño solo documentación y configuración de agentes/skills. No hay producto funcional, no hay dependencias instaladas y no hay datos publicados todavía.
+> **Estado: Fases 0–7 construidas (v0.1.0). Pendiente de validación profesional y de despliegue en producción.**
+> Motor determinista probado (108 pruebas, cobertura > 90 % en el módulo crítico), 8 alimentos reales con procedencia completa, 16 pantallas funcionales verificadas en accesibilidad y calidad visual. **No está clínicamente validado** (ver Advertencias).
+
+## Cómo ejecutar (desarrollo)
+
+```bash
+# Backend (puerto 8400)
+cd backend
+python -m venv .venv
+.venv\Scripts\pip install -r requirements.txt -r requirements-dev.txt email-validator
+copy .env.example .env      # ajusta valores; NUTRI_AUTOSEED no es necesario (ver seed)
+.venv\Scripts\python -m app.seed        # carga alimentos reales, reglas candidatas y admin
+.venv\Scripts\python -m uvicorn app.main:app --port 8400
+
+# Frontend (puerto 3000, proxy /api -> 8400)
+cd frontend
+npm install
+npm run build && npm start       # o: npm run dev
+
+# Pruebas del backend (108, con cobertura)
+cd backend && .venv\Scripts\python -m pytest tests --cov=app
+```
 
 ## Qué es (y qué no es)
 
@@ -38,7 +58,7 @@ NutriRegión Colombia responde preguntas reales:
 ## Arquitectura y fases
 
 - Arquitectura modular: `docs/architecture.md`
-- Esquema inicial de datos: `docs/data-model.md`
+- Esquema de datos: `docs/data-model.md`
 - Plan de pruebas: `docs/test-plan.md`
 - Entorno verificado: `docs/environment.md`
 - Decisiones técnicas: `docs/adr/`
@@ -46,17 +66,17 @@ NutriRegión Colombia responde preguntas reales:
 
 | Fase | Nombre | Estado |
 |---|---|---|
-| 0 | Descubrimiento y arquitectura | Completada — espera aprobación |
-| 1 | Sistema visual y prototipo navegable | No iniciada |
-| 2 | Infraestructura de datos científicos | No iniciada |
-| 3 | Perfil adaptativo y seguridad | No iniciada |
-| 4 | Motor nutricional y evidencia | No iniciada |
-| 5 | Gastronomía territorial y presupuesto | No iniciada |
-| 6 | Bioquímica y capa explicativa | No iniciada |
-| 7 | Seguimiento y modo profesional | No iniciada |
-| 8 | Validación integral y preparación para producción | No iniciada |
+| 0 | Descubrimiento y arquitectura | Completada |
+| 1 | Sistema visual y prototipo navegable | Construida — 16 pantallas, build limpio, auditoría de accesibilidad 12/12, revisión visual con IA 7–9/10 |
+| 2 | Infraestructura de datos científicos | Construida — importador reproducible USDA FDC + informe de calidad + Alembic baseline |
+| 3 | Perfil adaptativo y seguridad | Construida — auth JWT + roles, consentimiento, alergias, triage con catálogo adverso probado |
+| 4 | Motor nutricional y evidencia | Construida — motor determinista (calc/rules/triage/optimize), reglas aplicadas trazables |
+| 5 | Gastronomía territorial y presupuesto | Parcial — precios honestos (sin datos = "sin datos") y sustituciones funcionan; recetas esperan ingredientes; optimizador v1 greedy |
+| 6 | Bioquímica y capa explicativa | Parcial — fichas con capas de confianza por nutriente; IA implementada y desactivada por defecto |
+| 7 | Seguimiento y modo profesional | Construida — seguimiento, panel profesional con aprobación de reglas, export/eliminación de cuenta |
+| 8 | Validación integral y producción | En curso — pruebas y auditorías técnicas ejecutadas; validación clínica/legal pendiente (externa) |
 
-Ninguna fase comienza sin la aprobación explícita del responsable del proyecto.
+**Estado real del catálogo:** 8 alimentos con datos reales (USDA FDC, límite 10 descargas/día de la DEMO_KEY). Con una [API key gratuita personal de FDC](https://fdc.nal.usda.gov/api-key-signup) y ejecutar `python scripts/fetch_fdc.py --key TU_CLAVE` + `python -m app.seed`, el catálogo crece a 28 alimentos y las 10 recetas cargan solas. Nunca inventamos alimentos para llenar la pantalla.
 
 ## Estructura del repositorio
 

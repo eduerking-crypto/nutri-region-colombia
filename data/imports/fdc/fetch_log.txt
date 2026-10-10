@@ -100,3 +100,10 @@
 2026-10-10 19:44:39 SKIP harina_maiz: ya descargado
 2026-10-10 19:44:39 SKIP papa: ya descargado
 2026-10-10 19:44:40 429 tomate (intento 1/2): limite de tasa, esperando 900s
+2026-10-10 19:59:41 429 tomate (intento 2/2): limite de tasa, esperando 900s
+2026-10-10 20:14:41 FALLO definitivo tomate: reintentos agotados
+2026-10-10 20:14:45 429 cebolla (intento 1/2): limite de tasa, esperando 900s
+2026-10-10 20:29:46 429 cebolla (intento 2/2): limite de tasa, esperando 900s
+2026-10-10 20:44:46 FALLO definitivo cebolla: reintentos agotados
+2026-10-10 20:44:50 429 ajo (intento 1/2): limite de tasa, esperando 900s
+2026-10-10 20:59:56 429 ajo (intento 2/2): limite de tasa, esperando 900s

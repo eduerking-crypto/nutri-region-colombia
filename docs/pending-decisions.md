@@ -17,6 +17,8 @@ Registro de decisiones que **NO** puede tomar ningún agente por su cuenta. Se r
 | PD-11 | Composición del comité de revisión profesional (nutrición clínica, medicina) y proceso de aprobación de reglas | Clínica | Usuario | Fase 4 |
 | PD-12 | Justificación de PWA: si la utilidad real (uso offline, mercados sin conectividad) justifica el costo | Producto/Técnica | Usuario | Fase 6 |
 | PD-13 | Índice de diversidad alimentaria: metodología explícita y advertencia de que NO es escala clínica validada | Científica | Usuario + revisión profesional | Presentarlo en la app (Fase 5) |
+| PD-14 | API key gratuita personal de USDA FDC (registro de 2 minutos en fdc.nal.usda.gov/api-key-signup) para completar el catálogo de 28 alimentos y cargar las 10 recetas | Datos | Usuario | Cualquier momento; desbloquea Fase 5 completa |
+| PD-15 | Insumos territoriales de precios: adoptar fuente oficial (DANE/SIPSA) y/o habilitar el aporte comunitario con moderación | Datos/Producto | Usuario | Fase 5 producción |
 
 ## Decisiones que el equipo técnico puede tomar (documentadas en ADR)
 

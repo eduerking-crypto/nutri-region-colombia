@@ -29,6 +29,9 @@ htmlcov/
 .coverage
 *.log
 
+# Verificacion visual local (screenshots pesados, no van al repo)
+verificacion-visual/
+
 # Sistema
 Thumbs.db
 .DS_Store
